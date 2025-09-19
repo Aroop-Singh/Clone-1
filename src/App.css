@@ -1,0 +1,113 @@
+/* App.css */
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Navbar */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 15.5px;
+  padding: 20px;
+  
+  position: fixed;   /* ⬅️ makes it stay pinned */
+  top: 0;            /* ⬅️ stick to the top */
+  left: 0;
+  right: 0;
+  background: white; /* ⬅️ so content doesn’t overlap text */
+  z-index: 1000;     /* ⬅️ stay on top of other elements */
+  border-bottom: 1px solid #ddd; /* optional nice divider */
+}
+
+/* this purple  text   shit fix for links */
+
+a {
+  text-decoration: none;  
+  color: black;          
+}
+
+a:hover {
+  color: #083e77;        
+}
+
+a> .banner {
+  text-decoration: none;  
+  color: black;          
+}
+
+/* this is some  random stuffs */
+#callButton {
+  background-color: #1369c4;   /* blue background */
+  color: white;                /* white emoji (if supported) */
+  border: none;                /* no border */
+  border-radius: 50%;          /* makes it circular */
+  width: 32px;                 /* circle width */
+  height: 32px;                /* circle height */
+  font-size: 14px;             /* size of emoji */
+  display: flex;               /* center emoji */
+  align-items: center;         
+  justify-content: center;     
+  cursor: pointer;             /* pointer on hover */
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  margin-left: 200px;          /* same margin as before */
+}
+
+#callButton:hover {
+  transform: scale(1.1);         /* grow slightly */
+  background-color: #00448d;     /* darker blue */
+}
+
+#LoginButton {
+  border: 40%; border-width: 2px; 
+  border-color: #1369c4;             /* no border */
+  border-radius: 30%;          /* makes it circular */
+  width: 62px;                 /* circle width */
+  height: 32px;                /* circle height */
+  font-size: 13px; font-weight: bold;          /* size of emoji */
+  display: flex;               /* center emoji */
+  align-items: center;         
+  justify-content: center;     
+  cursor: pointer;             /* pointer on hover */
+  background-color: 0.3s ease;
+  margin-left: 20px;          /* same margin as before */
+}
+
+#LoginButton:hover {
+  background-color: #c6c7c8;     /* darker blue */
+}
+
+
+
+.banner {
+  text-align: center;
+  padding: 10px;
+  margin-top: 72px;
+  position: fixed;   /* ⬅️ makes it stay pinned */
+  top: 0;            /* ⬅️ stick to the top */
+  left: 0;
+  right: 0;
+}
+
+
+
+.body {
+  background-color: #edf2fa;
+  margin-top: 144px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+}
