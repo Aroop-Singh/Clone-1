@@ -69,23 +69,27 @@ a> .banner {
 }
 
 #LoginButton {
-  border: 40%; border-width: 2px; 
-  border-color: #1369c4;             /* no border */
-  border-radius: 30%;          /* makes it circular */
-  width: 62px;                 /* circle width */
-  height: 32px;                /* circle height */
-  font-size: 13px; font-weight: bold;          /* size of emoji */
-  display: flex;               /* center emoji */
-  align-items: center;         
-  justify-content: center;     
-  cursor: pointer;             /* pointer on hover */
-  background-color: 0.3s ease;
-  margin-left: 20px;          /* same margin as before */
+  border: 2px solid #1369c4;
+  background-color: white;
+  width: 80px;    /* length of the pipe */
+  height: 40px;   /* height of the semicircle */
+  
+  border-radius: 20px 20px 20px 20px; /* left side round, right side flat */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: background-color 0.3s ease;
 }
 
 #LoginButton:hover {
-  background-color: #c6c7c8;     /* darker blue */
+  background-color: #c6c7c8;
 }
+
 
 
 

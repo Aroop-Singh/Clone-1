@@ -61,7 +61,7 @@ function Layout() {
           <h5 style={{color: 'yellow', paddingTop: 7, paddingBottom: 5}}>INDIA'S BIGGEST EXAM IS LIVE</h5> 
           <img src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_400,f_auto,q_auto/v1733741024/lpbkzdbke54wl6cevwjo.svg?_upload_ref=ic_img_tool&__ar__=1.06" alt="announcement" style={{width: 22, height: 22, paddingTop: 0}}/> 
         </span>
-         <p style={{fontWeight: 'bold', color: 'white'}}> If your child is in Class 5-10, registerfor TALLENTEX now ›</p>
+         <p style={{fontWeight: 'bold', color: 'white'}}> If your child is in Class 5-10, register for TALLENTEX now ›</p>
 
       </div>
 
